@@ -19,24 +19,23 @@ body, html {
     margin: 0.5%;
     background-color: grey;
     min-height: 98%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2%;
+
 }
 
 
 /* PAGE HEADER */
 
-.page-head {
+/* .page-head {
     display: flex;
     justify-content: space-between;
     width: 100%;
     padding-top: 1%;
-}
+} */
 
-.logo {
-    text-transform: uppercase;
-    color: #DFD9C5;
-    font-size: 21px;
-    padding-right: 1%;
-}
+
 
 
 /* menu bar */
@@ -44,11 +43,12 @@ body, html {
 .menu-container {
 	position: relative;
     display: inline-block;
-	width: 50%;
+	width: 100%;
     font-size: 16px;
-    padding-left: 1%;
     display: flex;
     justify-content: space-between;
+    padding-top: 2%;
+
 }
 
 .menu-container:hover {
@@ -120,4 +120,112 @@ body, html {
 
 .menu-container:hover .dropList {
     display: block;
+}
+
+
+/* home page grid portfolio */
+
+.left-box {
+    position: relative;
+    display: block;
+    min-height: 100%;
+    width: 50%;
+    background-color: transparent;
+    background-size: 100%;
+    border-right-style: solid;
+    border-right-color: #E0A41E;
+    border-right-width: 3px;
+}
+
+.tagline {
+    padding-top: 65%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    padding-right: 2%;
+    text-transform: uppercase;
+    color: #DFD9C5;
+}
+
+.right-box {
+    position: relative;
+    display: block;
+    min-height: 100%;
+    width: 50%;
+}
+
+.top-box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-bottom-style: solid;
+    border-bottom-color: #E0A41E;
+    border-bottom-width: 3px;
+}
+
+.one-box, .two-box {
+    width: 50%;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #DFD9C5;
+}
+
+.one-box {
+    padding-top: 40.5%;
+    background-color: transparent;
+    border-right-style: solid;
+    border-right-color: #E0A41E;
+    border-right-width: 3px;
+}
+
+.port-1, .port-2, .port-3 {
+    padding-left: 5%;
+}
+
+.one-box:hover {
+    cursor: pointer;
+}
+
+.port-1:hover, .port-2:hover, .port-3:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #DFD9C5;
+}
+
+
+.logo {
+    font-family: Futura, sans-serif;
+   text-align: left;
+    text-transform: uppercase;
+    color: #DFD9C5;
+    font-size: 21px;
+    width: 100%;
+    margin-top: 3%;
+    padding-left: 25%;
+}
+
+.port-2 {
+    padding-top: 68%;
+    padding-bottom: 20%;
+}
+
+.port-3 {
+    width: 100%;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #DFD9C5;
+    padding-top: 35%;
+    padding-left: 2%;
+}
+
+.social {
+    color: #DFD9C5;
+    width: 97%;
+    margin-top: 5%;
+    text-align: right;
+
+
 }
