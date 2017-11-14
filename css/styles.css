@@ -262,7 +262,7 @@ body, html {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    padding-top: 10%;
+    padding-top: 8%;
 }
 
 .title {
@@ -293,8 +293,7 @@ body, html {
     color: #000000;
     width: 98%;
     text-align: right;
-    margin-top: 7%;
-
+    margin-top: 9%;
 }
 
 /*      CONTACT PAGE
@@ -322,7 +321,7 @@ body, html {
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
-    padding-top: 10%;
+    padding-top: 5%;
 }
 
 .contact {
@@ -354,7 +353,7 @@ body, html {
  .contact-text {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
  }
 
@@ -366,10 +365,115 @@ body, html {
  }
 
  #name, #email {
-     width: 30%;
+     width: 32%;
      border-style: solid;
      border-color: #DFD9C5;
-     border-width: 2px;
+     border-width: 3px;
      border-radius: 10px;
      margin-top: 5%;
  }
+
+ #subject {
+     width: 100%;
+     margin: 0 auto;
+     border-style: solid;
+     border-color: #DFD9C5;
+     border-width: 3px;
+     border-radius: 10px;
+     margin-top: 5%;
+ }
+
+ .button {
+     width: 100%;
+     margin-top: 5%;
+     border-style: solid;
+     border-color: #DFD9C5 !important;
+     border-width: 3px !important;
+     border-radius: 10px !important;
+     color: #000000 !important;
+ }
+
+ .button:hover, .button:active {
+     background-color: #DFD9C5 !important;
+     transition: color 0.4s;
+ }
+
+
+/*   SELECTED PHOTOGRAPHY PAGE
+---------------------------------
+--------------------------------- */
+
+.main-container4 {
+    margin: 0.5%;
+    background-color: rgb(255, 255, 255);
+    min-height: 98%;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    width: 96%;
+    margin: 0 auto;
+}
+
+.social3{
+    color: #000000;
+    width: 50%;
+    text-align: right;
+    margin-top: 12%;
+}
+
+.photo-page-title {
+    text-transform: uppercase;
+    color: #000000;
+    text-align: left;
+    width: 50%;
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 12%;
+}
+
+.selected-section {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-top: 8%;
+}
+
+.selected-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    color: #E0A41E;
+    text-align: left;
+    text-transform: uppercase;
+    width: 20%;
+    padding-top: 5%;
+}
+
+.line3 {
+    background-color: #E0A41E;
+    height: 4px;
+    width: 100%; 
+}
+
+li {
+    list-style-type: none;
+    margin-bottom: 10%;
+}
+
+.p-name, a {
+    text-decoration: none;
+}
+
+.p-name {
+    color: #000000;
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.p-name:hover {
+    color: #E0A41E;
+    transition: color 0.5s;
+}
+
