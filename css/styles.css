@@ -457,7 +457,7 @@ video {
 
 .main-container4 {
     margin: 0.5%;
-    background-color: rgb(255, 255, 255);
+    background-color: #EDEAE4;
     min-height: 98%;
 }
 
@@ -529,3 +529,45 @@ li {
     transition: color 0.5s;
 }
 
+/*    FILM PAGE
+---------------------------------
+--------------------------------- */
+
+.main-container-film {
+    margin: 0.5%;
+    background-color: transparent;
+    height: 98%;
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1.3%;
+    z-index: 99;
+    position: absolute;
+    margin: 0 auto;
+}
+
+.film-page-title {
+    text-transform: uppercase;
+    color: #DFD9C5;
+    text-align: left;
+    width: 50%;
+    font-size: 26px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10%;
+}
+
+/*    GALLERY PHOTO PAGE
+---------------------------------
+--------------------------------- */
+
+.main-container-gallery {
+    margin: 0.5%;
+    background-color: transparent;
+    min-height: 98%;
+}
+
+/* fluid 5 columns */
+.grid-sizer,
+.grid-item { width: 20%; }
+/* 2 columns */
+.grid-item--width2 { width: 40%; }
