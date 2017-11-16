@@ -287,7 +287,7 @@ video {
     margin: 0 auto;
 }
 .a-text2 {
-    color: #000000;
+    color: #000000 !important;
 }
 
 .a2 {
@@ -295,7 +295,7 @@ video {
 }
 
 .dropList, .a-text2 a{
-    color: #000000;
+    color: #000000 !important;
 }
 
 .logo2 {
@@ -308,6 +308,8 @@ video {
     font-size: 21px;
     text-align: right;
 }
+
+
 
 .statement {
     width: 80%;
@@ -451,7 +453,7 @@ video {
  }
 
 
-/*   SELECTED PHOTOGRAPHY PAGE
+/*   DESIGN / PHOTO PAGE
 ---------------------------------
 --------------------------------- */
 
@@ -461,10 +463,10 @@ video {
     min-height: 98%;
 }
 
-.footer-section {
+.head-section {
     display: flex;
     justify-content: space-between;
-    width: 96%;
+    width: 85%;
     margin: 0 auto;
 }
 
@@ -472,7 +474,11 @@ video {
     color: #000000;
     width: 50%;
     text-align: right;
-    margin-top: 12%;
+    margin-top: 5%;
+}
+
+i {
+    padding-right: 2%;
 }
 
 .photo-page-title {
@@ -482,7 +488,7 @@ video {
     width: 50%;
     font-size: 26px;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 12%;
+    margin-top: 5%;
 }
 
 .selected-section {
@@ -529,6 +535,35 @@ li {
     transition: color 0.5s;
 }
 
+.design-container {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding-bottom: 5%;
+}
+
+.design-pic {
+    width: 48%;
+    min-height: 20%; 
+    background-color: #EDEAE4;
+}
+
+.d-pic {
+    width: 100%;
+}
+
+.d-pic:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition: ease-in ease-out 0.5s;
+}
+
+
+
+
 /*    FILM PAGE
 ---------------------------------
 --------------------------------- */
@@ -571,3 +606,13 @@ li {
 .grid-item { width: 20%; }
 /* 2 columns */
 .grid-item--width2 { width: 40%; }
+
+
+
+
+
+
+/*    DESIGN PAGE
+---------------------------------
+--------------------------------- */
+
