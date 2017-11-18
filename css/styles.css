@@ -932,6 +932,9 @@ li {
     display: inherit;
     position: relative;
     top: -25px;
+    /* width: 100%;
+    margin: 0;
+    padding: 0; */
     }
 /* The Hamburger icon with the menu */
 
@@ -1119,7 +1122,7 @@ opacity: 1;
 }
 
 .tagline-mobile {
-    padding-top: 20%;
+    padding-top: 10%;
     font-size: 26px;
     width: 90%;
     padding-bottom: 8%;
@@ -1144,7 +1147,7 @@ opacity: 1;
 }
 
 .port-1, .port-2, .port-3 {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .left-box {
@@ -1155,7 +1158,6 @@ opacity: 1;
     border-bottom-width: 3px;
     margin: 0;
     border-right: none;
-
 }
 
 .logo-tablet {
@@ -1174,28 +1176,37 @@ opacity: 1;
 .logo {
     display: none;
 }
-/* 
+
 .top-box, .right-box {
     width: 100%;
-} */
+}
 
 .one-box, .two-box {
-    padding-top: 20%;
+    padding: 0;
     width: 100%;
+}
+
+.top-box {
+    border-top-style: solid;
+    border-top-color: #E0A41E;
+    border-top-width: 3px;
 }
 
 .port-1 {
     width: 100%;
-}
+    padding-top: 45%; 
+} 
 
 .port-2 {
-    padding-top: 39%;
-    padding-bottom: 20%;
+    padding-top: 45% !important;
+    padding-bottom: 20% !important;
 }
 
 .port-3 {
     padding-top: 20%;
-    padding-left: 4%;
+    padding-left: 0;
+    width: 90%;
+    margin: 0 auto;
 }
 
 

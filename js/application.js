@@ -4,7 +4,7 @@
 
 $(document).ready(function(){
 
-    // $.fatNav();    
+    /   
 
 
     // fullpage.js plugin
