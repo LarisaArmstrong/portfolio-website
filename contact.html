@@ -4,7 +4,7 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <title>Larisa Armstrong</title>
      
     <!-- favicon -->
@@ -27,40 +27,65 @@
 			
     
 <header>
+  
+</header>
 
+<main>
 <!--FULL PAGE JS-->
 			
     <div id="fullpage">
 
-
-
-
      <!--contact page section-->    
-	
+
      <div class="section" id="contact-page" data-anchor="contact">
             
          <div class="main-container3">
-               
-          <div class="page-head">
-             <div class="menu-container" onclick="menuBar(this)">
-                 <div class="burger">
-                 <div class="bar1"></div>
-                 <div class="bar2"></div>
-                 <div class="bar3"></div>
-             </div> 
-                 <div class="dropList">
-                     <a href="about.html" class="menuItem">Artist Statement</a>
-                     <a href="contact.html" class="menuItem">Connect</a>
-                     <a href="film.html" class="menuItem">Film</a>
-                     <a href="photo.html" class="menuItem">Photography</a>
-                     <a href="design.html" class="menuItem">Design</a>
-                 </div>           
-             </div>
- 
-             <div class="logo3"><a href="index.html" class="logo-link">Larisa Armstrong</a></div>
-         
-             </div> 
-             
+
+              <!-- desktop/laptop/tablet header -->
+    <div class="page-head">
+            <div class="menu-container" onclick="menuBar(this)">
+                <div class="burger">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div> 
+                <div class="dropList">
+                    <a href="about.html" class="menuItem">Artist Statement</a>
+                    <a href="contact.html" class="menuItem">Connect</a>
+                    <a href="film.html" class="menuItem">Film</a>
+                    <a href="photo.html" class="menuItem">Photography</a>
+                    <a href="design.html" class="menuItem">Design</a>
+                </div>           
+            </div>
+    
+            <div class="logo3"><a href="index.html" class="logo-link">Larisa Armstrong</a></div>
+        
+        </div> 
+              
+<!-- mobile header -->
+ <div class="mobile-head-contact">     
+        <nav role='navigation'>
+            <div id="menuToggle">
+            
+                <input type="checkbox" />
+                
+                <span></span>
+                <span></span>
+                <span></span>
+                
+                <ul id="m-menu">
+                <a href="about.html" class="menuItem">Artist Statement</a>
+                <a href="contact.html" class="menuItem">Connect</a>
+                <a href="film.html" class="menuItem">Film</a>
+                <a href="photo.html" class="menuItem">Photography</a>
+                <a href="design.html" class="menuItem">Design</a>
+                </ul>
+            </div>
+            </nav>
+    
+            <div class="logo-mobile"><a href="index.html" class="logo-link">Larisa Armstrong</a></div>
+    </div>  
+     
              <div class="connect">
                  <div class="title2">
                      connect
@@ -112,98 +137,24 @@
  
      </div>
 
-     <!--END OF FULL PAGE CLOSING-->
+
+ <!--END OF FULL PAGE CLOSING-->
 	
 </div>
 
- <!-- MOBILE WEB 
-    //////////////////// -->
 
-    <div class="container-mobile contact-mobile">
-        
-                    <nav role='navigation'>
-                    <div id="menuToggle">
-                  
-                      <input type="checkbox" />
-                      
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      
-                      <ul id="m-menu">
-                        <a href="about.html" class="menuItem">Artist Statement</a>
-                        <a href="contact.html" class="menuItem">Connect</a>
-                        <a href="film.html" class="menuItem">Film</a>
-                        <a href="photo.html" class="menuItem">Photography</a>
-                        <a href="design.html" class="menuItem">Design</a>
-                      </ul>
-                    </div>
-                   </nav>
-        
-                   <div class="logo-mobile"><a href="index.html" class="logo-link logo-m">Larisa Armstrong</a></div>
-
-
-                   
-                  
-                    <div class="title2-mobile">
-                        connect
-                        <hr class="line2">
-                        <div class="contact">
-                            +27 78 347 6655
-                            <br><br>
-                            armstronglarisa@gmail.com
-                        </div>
-                    </div>
-    
-                    <div class="contact-area">
-                            <div class="contact-text">
-                                Feel free to drop me a message and say hi. If you like my work, you can follow me on social media.  
-                            </div>
-                            <div class="contact-form">
-    
-                                <form action="armstronglarisa@gmail.com" method="post">
-                                
-                                    
-                                    <input type="text" id="name" name="firstname" placeholder="Name">
-                                
-                                    <input type="text" id="name" name="lastname" placeholder="Surname">
-                                
-                                    <input id="email" type="email" placeholder="Email">
-                                    
-                                    
-    
-                                    <textarea id="subject" name="subject" placeholder="Message" style="height:200px"></textarea>
-                                
-                                    <input type="submit" value="Submit" class="button">
-                                
-                                </form>
-    
-                            </div>
-                    </div>
-                
-    
-                <div class="social s-connect">
-                    <i class="fa fa-facebook fa-1x" aria-hidden="true"></i>
-                    <i class="fa fa-instagram fa-1x" aria-hidden="true"></i>
-                    <i class="fa fa-behance fa-1x" aria-hidden="true"></i>
-                    <i class="fa fa-linkedin fa-1x" aria-hidden="true"></i>
-                    <i class="fa fa-vimeo fa-1x" aria-hidden="true"></i>
-                </div>
-
-     </div>  
-
-</header>
+</main>
 
 
 
 
 <!-- Scripts & plug-ins-->
 
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/vendor/scrolloverflow.min.js"></script>
+<script src="js/vendor/iscroll.js"></script>
 <script src="js/vendor/jquery.fullPage.js"></script>
-<script src="js/vendor/video.js"></script>
-<script src="js/vendor/jquery.vide.js"></script>		
+<script src="js/vendor/video.js"></script>		
 
 <script src="js/application.js"></script>
 
