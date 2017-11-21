@@ -36,6 +36,9 @@ body.is-loading #preloader {
     display: none;
 }
 
+a, .port-link {
+    color: #DFD9C5;
+}
 
 .tablet-head {
     display: none;
@@ -557,6 +560,10 @@ li {
     transition: ease-in ease-out 0.5s;
 }
 
+.photo-head {
+    padding: 0;
+}
+
 
 
 
@@ -597,14 +604,9 @@ li {
     min-height: 98%;
 }
 
-/* fluid 5 columns */
-.grid-sizer,
-.grid-item { width: 20%; }
-/* 2 columns */
-.grid-item--width2 { width: 40%; }
-
-
-
+.pic {
+    width: 100%;
+}
 
 
 /*-------------------------------
@@ -677,6 +679,10 @@ li {
 
 .about-mobile {
     display: none;
+}
+
+.photo-head {
+    padding: 0;
 }
 
 }
@@ -794,6 +800,10 @@ li {
 
 .about-mobile {
     display: none;
+}
+
+.photo-head {
+    padding: 0;
 }
 
 }
