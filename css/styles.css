@@ -576,8 +576,6 @@ li {
     background-color: transparent;
     height: 98%;
     width: 98%;
-    display: flex;
-    justify-content: space-between;
     padding-left: 1.3%;
     z-index: 99;
     position: absolute;
@@ -635,6 +633,10 @@ li {
     margin: 0 auto;
 }
 
+.film-head {
+    padding: 0;
+}
+
 
 .mobile-head-contact {
     display: none;
@@ -685,6 +687,51 @@ li {
     padding: 0;
 }
 
+.film-head {
+    padding: 0;
+}
+
+.button-area {
+    width: 50%;
+    height: 8%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.p-button {
+    width: 40%;
+    height: 100%;
+    background: transparent;
+    border-style: solid;
+    border-color: #E0A41E;
+    border-width: 4px;
+    border-radius: 20px;
+    color: #E0A41E;
+    font-family: futura, sans-serif;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.p-button:hover {
+    background-color: #E0A41E;
+    color: #000000;
+    cursor: pointer;
+}
+
+.video-title {
+    margin-top: 15%;
+    padding-bottom: 10%;
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #E0A41E;  
+}
+
+
 }
 
 /* 
@@ -695,6 +742,8 @@ li {
 @media screen and (max-width: 1920px) and (min-width: 1367px) {
 
 /* index page */
+
+
 
 .main-container {
     margin: 0.5%;
@@ -805,6 +854,52 @@ li {
 .photo-head {
     padding: 0;
 }
+
+.film-head {
+    padding: 0;
+    height: 10%;
+}
+
+.button-area {
+    width: 60%;
+    height: 8%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+.p-button {
+    width: 45%;
+    height: 100%;
+    background: transparent;
+    border-style: solid;
+    border-color: #E0A41E;
+    border-width: 4px;
+    border-radius: 20px;
+    color: #E0A41E;
+    font-family: futura, sans-serif;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.p-button:hover {
+    background-color: #E0A41E;
+    color: #000000;
+    cursor: pointer;
+}
+
+.video-title {
+    margin-top: 15%;
+    padding-bottom: 10%;
+    width: 100%;
+    height: 5%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #E0A41E;  
+}
+
 
 }
 

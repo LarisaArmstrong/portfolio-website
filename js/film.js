@@ -17,7 +17,7 @@ $(document).ready(function(){
         $(this);
     }); 
 
-
+   
     
     // showVideo.play();
 
@@ -42,28 +42,26 @@ function menuBar(x) {
 // ----------- VIDEO JS --------//
 //-------------------------------------//
 
-// showreel
+showreel
 
-// var showVideo = videojs('showreel', {
-//     autoplay: false,
-//     preload: 'auto',
-//     controls: false,
-//     loop: false,
-// });
+var showVideo = videojs('showreel', {
+    autoplay: false,
+    preload: 'auto',
+    controls: false,
+    loop: false,
+});
 
-// showVideo.on('canplaythrough', function(){
-//     var body = document.getElementsByTagName('body')[0];
+showVideo.on('canplaythrough', function(){
+    var body = document.getElementsByTagName('body')[0];
     
-//     body.classList.remove('is-loading');
+    body.classList.remove('is-loading');
 
-// });
+});
 
-// var showVideo = document.getElementById('showreel'); 
+function playVid() { 
+    showVideo.play();
+} 
 
-// function playVid() { 
-//     showVideo.play();
-// } 
-
-// function pauseVid() { 
-//     showVideo.pause(); 
-// } 
+function pauseVid() { 
+    showVideo.pause(); 
+} 

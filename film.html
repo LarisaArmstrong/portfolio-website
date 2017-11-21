@@ -27,8 +27,10 @@
     <!-- <div id="preloader"></div> -->
 		
     
-<header>
+<header></header>
 
+
+<main>
 <!--FULL PAGE JS-->
 			
     <div id="fullpage">
@@ -40,45 +42,67 @@
         <!-- main container for section -->
 
      <div class="main-container-film">
+        <!-- mobile header -->
+<div class="mobile-head-contact">
+
+        <nav role='navigation'>
+            <div id="menuToggle">
+            
+                <input type="checkbox" />
+                
+                <span></span>
+                <span></span>
+                <span></span>
+                
+                <ul id="m-menu">
+                <a href="about.html" class="menuItem">Artist Statement</a>
+                <a href="contact.html" class="menuItem">Connect</a>
+                <a href="film.html" class="menuItem">Film</a>
+                <a href="http://www.larisaarmstrong.com/" target="_blank" class="menuItem">Photography</a>
+                <a href="design.html" class="menuItem">Design</a>
+                </ul>
+            </div>
+            </nav>
+    
+            <div class="logo3"><a href="index.html" class="logo-link">Larisa Armstrong</a></div>
+    </div>  
+   
+<!-- desktop menu  -->
+
+   <div class="page-head film-head">
         <div class="menu-container" onclick="menuBar(this)">
-                <div class="burger">
-                <div class="bar1"></div>
-                <div class="bar2"></div>
-                <div class="bar3"></div>
-            </div> 
-                <div class="dropList">
-                        <a href="about.html" class="menuItem">Artist Statement</a>
-                        <a href="contact.html" class="menuItem">Connect</a>
-                        <a href="film.html" class="menuItem">Film</a>
-                        <a href="http://www.larisaarmstrong.com/" target="_blank" class="menuItem">Photography</a>
-                        <a href="design.html" class="menuItem">Design</a>
-                </div>
-                
+            <div class="burger">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div> 
+            <div class="dropList">
+                <a href="about.html" class="menuItem">Artist Statement</a>
+                <a href="contact.html" class="menuItem">Connect</a>
+                <a href="film.html" class="menuItem">Film</a>
+                <a href="http://www.larisaarmstrong.com/" target="_blank" class="menuItem">Photography</a>
+                <a href="design.html" class="menuItem">Design</a>
+            </div>           
         </div>
 
-        <div class="footer-section">
-                
-            <div class="film-page-title">
-                film &amp; media
-            </div>
+        <div class="logo3"><a href="index.html" class="logo-link">Larisa Armstrong</a></div>
+    
+    </div> 
 
-            <div class="social">
-                <i class="fa fa-facebook fa-1x" aria-hidden="true"></i>
-                <i class="fa fa-instagram fa-1x" aria-hidden="true"></i>
-                <i class="fa fa-behance fa-1x" aria-hidden="true"></i>
-                <i class="fa fa-linkedin fa-1x" aria-hidden="true"></i>
-                <i class="fa fa-vimeo fa-1x" aria-hidden="true"></i>
-            </div>
+<div class="video-title">FILM SHOWREEL <br>2017</div>
 
-        </div>
+    <div class="button-area">
+            
+        <button onclick="playVid()" type="button" id="play" class="p-button">PLAY</button>
         
-        <button onclick="playVid()" type="button" id="play">PLAY</button>
-        
-        <button onclick="pauseVid()" type="button" id="pause">PAUSE</button>
+        <button onclick="pauseVid()" type="button" id="pause" class="p-button">PAUSE</button>
 
     </div>
 
-        <!-- showreel video -->
+ </div>
+
+
+    <!-- showreel video -->
 
        <video id="showreel" class="video-js" loop autoplay preload="auto">
             <source src="video/showreel-web.mp4" type='video/mp4'>
@@ -86,69 +110,12 @@
 
      </div>   
 
-    
- <!-- other film -->
-<!--     
-     <div class="section" id="film-page2" data-anchor="film"> -->
-        
-            <!-- main container for section -->
-<!--     
-         <div class="main-container-film">
-            <div class="menu-container" onclick="menuBar(this)">
-                    <div class="burger">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
-                </div> 
-                    <div class="dropList">
-                            <a href="about.html" class="menuItem">Artist Statement</a>
-                            <a href="contact.html" class="menuItem">Connect</a>
-                            <a href="film.html" class="menuItem">Film</a>
-                            <a href="photo.html" class="menuItem">Photography</a>
-                            <a href="design.html" class="menuItem">Design</a>
-                    </div>
-                    
-            </div>
-    
-            <div class="footer-section">
-                    
-                <div class="film-page-title">
-                    film &amp; media
-                </div>
-    
-                <div class="social">
-                    <i class="fa fa-facebook fa-1x" aria-hidden="true"></i>
-                    <i class="fa fa-instagram fa-1x" aria-hidden="true"></i>
-                    <i class="fa fa-behance fa-1x" aria-hidden="true"></i>
-                    <i class="fa fa-linkedin fa-1x" aria-hidden="true"></i>
-                    <i class="fa fa-vimeo fa-1x" aria-hidden="true"></i>
-                </div>
-    
-            </div>
-            
-            <button onclick="playVid()" type="button" id="play">PLAY</button>
-            
-            <button onclick="pauseVid()" type="button" id="pause">PAUSE</button>
-    
-        </div>
-     -->
-            <!-- fashion video -->
-<!--     
-           <video id="showreel" class="video-js" loop autoplay preload="auto">
-                <source src="video/fashion-web.mp4" type='video/mp4'>
-            </video> 
-    
-         </div>    -->
-    
-
-
+ 
 <!--END OF FULL PAGE CLOSING-->
 
 </div>	
             
-</header>
-
-        
+</main>
 
 
 <!-- Scripts & plug-ins-->
