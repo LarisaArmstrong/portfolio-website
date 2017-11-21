@@ -17,7 +17,60 @@ $(document).ready(function(){
         $(this);
     }); 
 
-   
+
+    $('.p-button').click(function () {
+            $('.p-button').fadeOut();
+            $('.video-title').fadeOut()
+    });
+
+    // $('#showreel').on('mouseover', function(){
+    //     $('.p-button').fadeIn();
+    //     $('.video-title').fadeIn()
+    // });
+
+    // $('#showreel').on('mouseout', function(){
+    //     $('.p-button').fadeOut();
+    //     $('.video-title').fadeOut()
+    // });
+
+    $('#showreel').on('mousemove',function() {  
+        $('.p-button').fadeIn();
+        $('.video-title').fadeIn();
+     });
+
+
+
+    //  $(document).ready(function() {
+    //     var $top = $('#top');
+    //     var $document = $(document);
+    //     var timer = null;
+    //     var timerIsRunning = false;
+    
+    //     $top.hide();
+    
+    //     $('#menu').mousemove(function(e){
+    //         e.stopPropagation();
+    //     });
+    //     setTimeout(function() {
+    //                         $document.mousemove(function(e) {
+    //                                 if($top.is(':hidden')) {
+    //                                     $top.fadeIn();
+    //                                 } else {
+    //                                     if(!timerIsRunning) {
+    //                                         timerIsRunning = true;
+    //                                         clearTimeout(timer);
+    //                                         timer = setTimeout(function() { $top.fadeOut();  }, 5000);
+    //                                         setTimeout(function() {timerIsRunning = false;}, 2000);
+    //                                     }
+    //                                 }
+    //                         });
+    //                 }, 500);
+    
+    // });
+
+
+
+
     
     // showVideo.play();
 
