@@ -4,6 +4,8 @@
 
 $(document).ready(function(){
 
+    
+
     // fullpage.js plugin
 
      $('#fullpage').fullpage({
@@ -17,9 +19,6 @@ $(document).ready(function(){
         $(this);
     }); 
 
-
-    introVideo.play();
-    
 
 ///////// END JQUERY /////////
 
@@ -36,27 +35,9 @@ function menuBar(x) {
     x.classList.toggle("change");
 }
 
-// ----------- VIDEO JS --------//
-//-------------------------------------//
-
-
-var introVideo = videojs('intro', {
-    autoplay: true,
-    preload: 'auto',
-    controls: false,
-    loop: true,
-});
-
-introVideo.on('canplaythrough', function(){
-    var body = document.getElementsByTagName('body')[0];
-    
-    body.classList.remove('is-loading');
-
-});
-
 // scroll plugin 
 
-var myScroll2 = new IScroll('#home-page', {
+var myScroll = new IScroll('#contact-page', {
     mouseWheel: true,
     scrollbars: true,
 });

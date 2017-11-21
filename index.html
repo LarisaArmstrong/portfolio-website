@@ -28,7 +28,10 @@
 		
     
 <header>
+</header>    
 
+
+<main>
 <!--FULL PAGE JS-->
 			
     <div id="fullpage">
@@ -39,46 +42,55 @@
     
         <!-- main container for section -->
 
-        <div class="main-container">
+<div class="main-container"> 
+          
+<!-- mobile header -->
+<div class="mobile-head-contact">     
+    <nav role='navigation'>
+        <div id="menuToggle">
+        
+            <input type="checkbox" />
+            
+            <span></span>
+            <span></span>
+            <span></span>
+            
+            <ul id="m-menu">
+            <a href="about.html" class="menuItem">Artist Statement</a>
+            <a href="contact.html" class="menuItem">Connect</a>
+            <a href="film.html" class="menuItem">Film</a>
+            <a href="photo.html" class="menuItem">Photography</a>
+            <a href="design.html" class="menuItem">Design</a>
+            </ul>
+        </div>
+        </nav>
 
-            <div class="left-box">
+        <div class="logo-mobile"><a href="index.html" class="logo-link">Larisa Armstrong</a></div>
+</div>  
+   
+ <div class="left-box">
                 <!--menu bar-->
-                <div class="tablet-head">
-                <div class="menu-container" onclick="menuBar(this)">
-                        <div class="burger">
-                        <div class="bar1"></div>
-                        <div class="bar2"></div>
-                        <div class="bar3"></div>
-                    </div> 
-                        <div class="dropList">
-                                <a href="about.html" class="menuItem">Artist Statement</a>
-                                <a href="contact.html" class="menuItem">Connect</a>
-                                <a href="film.html" class="menuItem">Film</a>
-                                <a href="photo.html" class="menuItem">Photography</a>
-                                <a href="design.html" class="menuItem">Design</a>
-                        </div>
-                        
-                    </div>
 
-                    <div class="logo-tablet"><a href="index.html" class="logo-link">Larisa Armstrong</a></div>
+<!-- desktop/laptop/tablet header -->
+<div class="page-head">
+        <div class="menu-container" onclick="menuBar(this)">
+            <div class="burger">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div> 
+            <div class="dropList">
+                <a href="about.html" class="menuItem">Artist Statement</a>
+                <a href="contact.html" class="menuItem">Connect</a>
+                <a href="film.html" class="menuItem">Film</a>
+                <a href="photo.html" class="menuItem">Photography</a>
+                <a href="design.html" class="menuItem">Design</a>
+            </div>           
+        </div>
 
-                </div>
-
-                <div class="menu-container menu-desktop" onclick="menuBar(this)">
-                        <div class="burger">
-                        <div class="bar1"></div>
-                        <div class="bar2"></div>
-                        <div class="bar3"></div>
-                    </div> 
-                        <div class="dropList">
-                                <a href="about.html" class="menuItem">Artist Statement</a>
-                                <a href="contact.html" class="menuItem">Connect</a>
-                                <a href="film.html" class="menuItem">Film</a>
-                                <a href="photo.html" class="menuItem">Photography</a>
-                                <a href="design.html" class="menuItem">Design</a>
-                        </div>
-                        
-                    </div>
+        <div class="logo-tablet"><a href="index.html" class="logo-link">Larisa Armstrong</a></div>
+    
+    </div>
 
                 <div class="tagline">
                         fine art documentary photographer and web developer                        
@@ -131,80 +143,7 @@
 	
     </div>	
 
-
-    <!-- MOBILE WEB 
-    //////////////////// -->
-
-    <div class="container-mobile">
-
-            <nav role='navigation'>
-            <div id="menuToggle">
-          
-              <input type="checkbox" />
-              
-              <span></span>
-              <span></span>
-              <span></span>
-              
-              <ul id="m-menu">
-                <a href="about.html" class="menuItem">Artist Statement</a>
-                <a href="contact.html" class="menuItem">Connect</a>
-                <a href="film.html" class="menuItem">Film</a>
-                <a href="photo.html" class="menuItem">Photography</a>
-                <a href="design.html" class="menuItem">Design</a>
-              </ul>
-            </div>
-           </nav>
-
-           <div class="logo-mobile"><a href="index.html" class="logo-link">Larisa Armstrong</a></div>
-
-           <div class="tagline-mobile">
-                fine art documentary photographer and web developer                        
-        </div>
-
-        <div class="right-box">
-                
-                
-            <div class="top-box">
-                     <div class="one-box">
-                        <div class="port-1">Photography</div> 
-                     </div>
-                     <div class="two-box">
-                         <div class="port-2"> film &amp; media</div>
-                     </div>
-     
-               </div>  
-     
-                 <div class="bottom-box">
-                    <div class="port-3">front/back <br> end development</div>
-                    <div class="social">
-                     <i class="fa fa-facebook fa-1x" aria-hidden="true"></i>
-                     <i class="fa fa-instagram fa-1x" aria-hidden="true"></i>
-                     <i class="fa fa-behance fa-1x" aria-hidden="true"></i>
-                     <i class="fa fa-linkedin fa-1x" aria-hidden="true"></i>
-                     <i class="fa fa-vimeo fa-1x" aria-hidden="true"></i>
-                    </div>
-                 </div>
-     
-             </div>   
-          
-      <!-- intro video -->
-
-      <video id="intro" class="video-js" loop autoplay preload="auto">
-        <source src="video/intro-web.mp4" type='video/mp4'>
-    </video>
-          
-
-    </div>
-
-   
-    
-    
-
-
-
-    
-</header>
+</main>
 	
 			
 
@@ -212,6 +151,8 @@
   <!-- Scripts & plug-ins-->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/vendor/scrolloverflow.min.js"></script>
+<script src="js/vendor/iscroll.js"></script>
 <script src="js/vendor/jquery.fullPage.js"></script>
 <script src="js/vendor/masonry.pkgd.min.js"></script>
 <script src="js/vendor/video.js"></script>
