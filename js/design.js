@@ -16,7 +16,7 @@ $(document).ready(function(){
         controlArrows: true,
     });
 
-    $("menu-container").click(function(){
+    $("#menuToggle").click(function(){
         $(this);
     }); 
 

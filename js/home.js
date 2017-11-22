@@ -13,7 +13,7 @@ $(document).ready(function(){
         scrollOverflow: true,
     });
 
-    $("menu-container").click(function(){
+    $("#menuToggle").click(function(){
         $(this);
     }); 
 
