@@ -1358,7 +1358,7 @@ li {
 ------------------
 ------------------*/ 
 
-@media screen and (max-width: 480px) and (min-width: 320px) {
+@media screen and (max-width: 767px) and (min-width: 320px) {
 
 /* index page */
 
@@ -1403,7 +1403,7 @@ video {
 /* The Hamburger icon with the menu */
 
 
-a {
+#m-menu a {
 text-decoration: none !important;
 color: #232323 !important;
 -webkit-transition: color 0.3s ease;
@@ -1566,8 +1566,8 @@ opacity: 1;
 
 
 .tagline {
-    padding-top: 40%;
-    font-size: 26px;
+    padding-top: 35%;
+    font-size: 24px;
     width: 90%;
     padding-bottom: 8%;
     padding-left: 5%;
@@ -1657,6 +1657,10 @@ opacity: 1;
 
 .social {
     padding-bottom: 5%;
+}
+
+.social a {
+    color: #DFD9C5 !important;
 }
 
 /* about page */
