@@ -586,7 +586,7 @@ li {
     margin: 0;
     padding: 0;
     /* position: absolute; */
-    width: 17%;
+    /* width: 17%; */
 }
 
 .info-area {
@@ -594,7 +594,9 @@ li {
     /* justify-content: center; */
     width: 80%;
     margin: 0 auto;
-    margin-top: 2%;
+    margin-top: 1%;
+    padding: 0;
+    margin-right: 17%;
 }
 
 .info-area2 {
@@ -604,12 +606,12 @@ li {
     margin: 0 auto;
    position: absolute;
    z-index: 99;
-   margin-top: 2%;
-   margin-left: 15%;
+   margin-top: 0.5%;
+   margin-left: 5%;
 }
 
 .info-title {
-    width: 5%;
+    width: 2%;
     font-size: 30px;
     color: #4D493D;
     text-transform: lowercase;
@@ -618,26 +620,26 @@ li {
 .info-title2 {
     color: #cecece;;
     text-transform: lowercase;
-    width: 10%;
+    width: 2%;
     font-size: 30px;
 }
 
 .info {
-    width: 10%;
+    width: 5%;
     font-size: 16px;
     color: #4D493D;
     text-transform: uppercase;
-    padding-right: 5%;
-    padding-left: 3%;
+    padding-right: 1%;
+    /* padding-left: 3%; */
 }
 
 .info2 {
-    width: 15%;
+    width: 5%;
     font-size: 16px;
     color: #cecece;;
     text-transform: uppercase;
-    padding-right: 5%;
-    padding-left: 3%;
+    padding-right: 1%;
+    /* padding-left: 3%; */
 }
 
 .visit {
@@ -658,7 +660,7 @@ li {
     border-width: 4px;
     border-style: solid;
     border-radius: 20px;
-    width: 5%;
+    width: 2%;
     background: transparent;
    height: 5%;
 }
@@ -668,7 +670,7 @@ li {
     border-width: 4px;
     border-style: solid;
     border-radius: 20px;
-    width: 8%;
+    width: 2%;
     background: transparent;
    height: 5%;
 }
@@ -677,6 +679,12 @@ li {
     cursor: pointer;
     border-radius: 5px;
 }
+
+.dark {
+    color: #4D493D;
+}
+
+
 
 
 
