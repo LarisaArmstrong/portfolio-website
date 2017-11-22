@@ -458,7 +458,7 @@ video {
 
 .main-container4 {
     margin: 0.5%;
-    background-color: #EDEAE4;
+    background-color: #ffffff;
     min-height: 98%;
 }
 
@@ -534,35 +534,99 @@ li {
     transition: color 0.5s;
 }
 
-.design-container {
-    display: flex;
-    justify-content: space-between;
-    width: 85%;
-    flex-wrap: wrap;
+.slide1 {
+    width: 98%;
+    height: 98%;
     margin: 0 auto;
-    margin-top: 5%;
-    padding-bottom: 5%;
+}
+
+.slide-content {
+    width: 100%;
+    height: 100%;
+    z-index: 99;
+    position: absolute !important;
 }
 
 .design-pic {
-    width: 48%;
-    min-height: 20%; 
-    background-color: #EDEAE4;
+   width: 100%;
+   height: 100%;
+   z-index: -1;
+   position: relative;
+
+}
+
+.design-logo {
+    position: absolute;
+    width: 45%;
 }
 
 .d-pic {
     width: 100%;
 }
 
-.d-pic:hover {
+/* .d-pic:hover {
     cursor: pointer;
     opacity: 0.5;
     transition: ease-in ease-out 0.5s;
-}
+} */
 
 .photo-head {
     padding: 0;
 }
+
+.d-social {
+    margin: 0;
+    padding: 0;
+    /* position: absolute; */
+    width: 17%;
+}
+
+.info-area {
+    display: flex;
+    /* justify-content: center; */
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 21%;
+}
+
+.info-title {
+    width: 5%;
+    font-size: 40px;
+    color: #4D493D;
+    text-transform: lowercase;
+}
+
+.info {
+    width: 10%;
+    font-size: 18px;
+    color: #4D493D;
+    text-transform: uppercase;
+    padding-right: 5%;
+    padding-left: 3%;
+}
+
+.visit {
+    text-decoration: none;
+    color: #4D493D;
+    padding-left: 10%;
+}
+
+
+.visit-site {
+    border-color: #4D493D;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 20px;
+    width: 5%;
+    background: transparent;
+   height: 5%;
+}
+
+.visit-site:hover {
+    cursor: pointer;
+    border-radius: 5px;
+}
+
 
 
 
@@ -592,20 +656,9 @@ li {
     margin-top: 10%;
 }
 
-/*    GALLERY PHOTO PAGE
----------------------------------
---------------------------------- */
-
-.main-container-gallery {
-    margin: 0.5%;
-    background-color: transparent;
-    min-height: 98%;
+.logo-design {
+    color: #DFD9C5 !important;
 }
-
-.pic {
-    width: 100%;
-}
-
 
 /*-------------------------------
 ---------------------------------
@@ -900,6 +953,10 @@ li {
     color: #E0A41E;  
 }
 
+.d-social {
+    padding: 0;
+    margin: 0;
+}
 
 }
 
@@ -1079,6 +1136,10 @@ li {
     margin-top: 3%;
 }
 
+.d-social {
+    padding: 0;
+    margin: 0;
+}
 
 }
 
@@ -1455,6 +1516,11 @@ opacity: 1;
 
 .s-connect {
     padding-bottom: 10%;
+}
+
+.d-social {
+    padding: 0;
+    margin: 0;
 }
 
 

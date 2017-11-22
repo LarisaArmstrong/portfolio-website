@@ -12,7 +12,8 @@ $(document).ready(function(){
         css3: true,
         scrollingSpeed: 1000,
         fitToSection: true,
-        scrollOverflow: true,
+        // scrollOverflow: true,
+        controlArrows: true,
     });
 
     $("menu-container").click(function(){
@@ -37,7 +38,7 @@ function menuBar(x) {
 
 // scroll plugin 
 
-var myScroll2 = new IScroll('#design-page', {
-    mouseWheel: true,
-    scrollbars: true,
-});
+// var myScroll2 = new IScroll('#design-page', {
+//     mouseWheel: true,
+//     scrollbars: true,
+// });
