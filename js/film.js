@@ -1,5 +1,7 @@
 'use strict';
 
+var isPlaying = false;
+
 ///////// JQUERY ////////////
 
 $(document).ready(function(){
@@ -33,40 +35,36 @@ $(document).ready(function(){
     //     $('.video-title').fadeOut()
     // });
 
-    $('#showreel').on('mousemove',function() {  
+    $(document).on('mousemove',function() {  
         $('.p-button').fadeIn();
         $('.video-title').fadeIn();
      });
 
+        var $top = $('.video-actions');
+        var $document = $(document);
+        var timer = null;
+        var timerIsRunning = false;
+    
+        $top.hide();
+    
+        $(document).mousemove(function(e){
+            e.stopPropagation();
+        });
+        setTimeout(function() {
 
-
-    //  $(document).ready(function() {
-    //     var $top = $('#top');
-    //     var $document = $(document);
-    //     var timer = null;
-    //     var timerIsRunning = false;
-    
-    //     $top.hide();
-    
-    //     $('#menu').mousemove(function(e){
-    //         e.stopPropagation();
-    //     });
-    //     setTimeout(function() {
-    //                         $document.mousemove(function(e) {
-    //                                 if($top.is(':hidden')) {
-    //                                     $top.fadeIn();
-    //                                 } else {
-    //                                     if(!timerIsRunning) {
-    //                                         timerIsRunning = true;
-    //                                         clearTimeout(timer);
-    //                                         timer = setTimeout(function() { $top.fadeOut();  }, 5000);
-    //                                         setTimeout(function() {timerIsRunning = false;}, 2000);
-    //                                     }
-    //                                 }
-    //                         });
-    //                 }, 500);
-    
-    // });
+            $document.mousemove(function(e) {
+                if($top.is(':hidden')) {
+                    $top.fadeIn();
+                } else {
+                    if(!timerIsRunning) {
+                        timerIsRunning = true;
+                        clearTimeout(timer);
+                        timer = setTimeout(function() { $top.fadeOut();  }, 5000);
+                        setTimeout(function() {timerIsRunning = false;}, 2000);
+                    }
+                }
+            });
+        }, 500);
 
 
 
@@ -108,8 +106,11 @@ showVideo.on('canplaythrough', function(){
     var body = document.getElementsByTagName('body')[0];
     
     body.classList.remove('is-loading');
-
 });
+
+showVideo.on('playing', function() {
+    isPlaying = true;
+  });
 
 function playVid() { 
     showVideo.play();

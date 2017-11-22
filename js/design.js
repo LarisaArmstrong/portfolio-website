@@ -37,7 +37,7 @@ function menuBar(x) {
 
 // scroll plugin 
 
-var myScroll2 = new IScroll('#about-page', {
+var myScroll2 = new IScroll('#design-page', {
     mouseWheel: true,
     scrollbars: true,
 });
