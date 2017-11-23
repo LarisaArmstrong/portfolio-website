@@ -1038,6 +1038,7 @@ li {
 .social a:hover {
     color: #E0A41E
 }
+
 }
 
 /* 
@@ -1151,6 +1152,8 @@ li {
 }
 
 .s-connect {
+    margin-top: 5%;
+    padding: 0;
     width: 98%;
 }
 
